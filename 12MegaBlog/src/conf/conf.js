@@ -1,0 +1,11 @@
+const conf = {
+    appwriteUrl: string(import.meta.env.VITE_APPWRITE_URL),
+    appwriteProjectId: string(import.meta.env.VITE_PROJECT_ID),
+    appwriteDatabaseId: string(import.meta.env.VITE_DATABASE_ID),
+    appwriteCollectionId: string(import.meta.env.VITE__COLLECTION_ID),
+    appwriteBucketId: string(import.meta.env.VITE__BUCKET_ID),
+
+}
+
+
+export default conf
